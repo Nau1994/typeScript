@@ -1,20 +1,20 @@
-// Define type like avariable and reuse it
-// type alias with variable
-// type alias with function params
+//diference of any and unknown
 
-type varType=string | number|undefined;
+let data:unknown;
+data=10;
 
-function combine(
-    a:varType ,
-    b:varType,
-    type: "as-string" | "as-number"
-  ) {
-    if (type == "as-number") {
-      return +a + +b;
-    } else {
-      return a.toString() + b.toString();
-    }
-  }
-  
-  console.warn(combine("naushad", "Ansari", "as-string"));
-  console.warn(combine(10, 20, "as-number"));
+let a:number=20;
+// a=data;//error
+console.warn(typeof data);
+
+if (typeof data ==='number'){
+    a=data;//no error  
+}
+
+//-----------------------
+let data1:any;
+data1=10;
+
+let a1:number=20;
+console.warn(typeof data1);
+a1=data1;//no error

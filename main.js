@@ -1,13 +1,15 @@
-// Define type like avariable and reuse it
-// type alias with variable
-// type alias with function params
-function combine(a, b, type) {
-    if (type == "as-number") {
-        return +a + +b;
-    }
-    else {
-        return a.toString() + b.toString();
-    }
+//diference of any and unknown
+var data;
+data = 10;
+var a = 20;
+// a=data;//error
+console.warn(typeof data);
+if (typeof data === 'number') {
+    a = data; //no error  
 }
-console.warn(combine("Naushad", "Ansari", "as-string"));
-console.warn(combine(10, 20, "as-number"));
+//-----------------------
+var data1;
+data1 = 10;
+var a1 = 20;
+console.warn(typeof data1);
+a1 = data1; //no error
