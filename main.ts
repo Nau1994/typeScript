@@ -16,5 +16,5 @@ function combine(
     }
   }
   
-  console.warn(combine("Naushad", "Ansari", "as-string"));
+  console.warn(combine("naushad", "Ansari", "as-string"));
   console.warn(combine(10, 20, "as-number"));
