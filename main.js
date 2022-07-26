@@ -1,4 +1,4 @@
 function add(a, b) {
     return a + b;
 }
-console.warn(add(6, 3));
+console.warn(add(6, 4));
