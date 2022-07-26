@@ -1,8 +1,7 @@
 "use strict";
-//Apply value rather than type to any variable
-//but variable can hold only those two value only
-// when we have no idea about datatype
-// recomnded to use union
+// Define type like avariable and reuse it
+// type alias with variable
+// type alias with function params
 function combine(a, b, type) {
     if (type == "as-number") {
         return +a + +b;
