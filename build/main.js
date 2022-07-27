@@ -1,2 +1,2 @@
 "use strict";
-console.log("config file change");
+console.log("config file change !");
